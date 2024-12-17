@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <h1><center>Calculator</center> </h1>
+        <div class="input">
+
+            <input type="number" id="inputField1" placeholder="Enter number 1">
+            <input type="number" id="inputField2" placeholder="Enter number 2">
+        </div>
+        <div class="operators">
+
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">*</button>
+            <button onclick="divide()">/</button>
+            <button onclick="root()">√</button>
+            <button onclick="clearInput()">Clear</button>
+            <button onclick="calculate()">Calculate</button>
+        </div>
+        <div class="answer">
+            <p id="result"></p>
+
+        </div>
+    <marquee direction="left">Het Patel</marquee>
+    </div>
+    
+<script src="index.js"></script>
+</body>
+</html>
